@@ -1,7 +1,0 @@
--User story của Home screen
-	+Người dùng có thể truy vào các danh mục, sản phẩm, cửa hàng, ...
-	+Người dùng có thể truy cập vào thông tin tài khoản các nhân
-	+Người dùng có thể tìm kiếm các sản phẩm theo từ khóa hoặc danh mục
-	+Người dùng có thể xem địa chỉ của bản thân ở góc phải trên
-	+Người dùng có thể thấy món ăn và một số thông tin của nó như tên, hình ảnh, mã giảm giá, giá, ...
-	+Người dùng có thể xem được các món ăn đã được đánh dấu yêu thích
