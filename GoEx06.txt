@@ -1,0 +1,4 @@
+Index trong SQL là 1 bảng tra cứu đặc biệt có thể dùng để tăng nhanh thời gian tìm kiếm và hiệu suất truy xuất dữ liệu của công cụ tìm kiếm
+Nó có thể tăng đáng kể tốc độ đọc dữ liệu trong khi ít ảnh hưởng đến tốc độ ghi
+Không cần thiết quét toàn bộ bảng nếu dùng index có khóa chính là cột đầu tiền của bảng
+Khi không có Index thì khi truy vấn sẽ tìm toàn bộ dữ liệu của bảng, trong khi nếu có index thì nó sẽ tìm kiếm nhị phân và tìm đến khóa chính của bảng
