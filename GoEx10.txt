@@ -1,0 +1,10 @@
+Vì sao không nên chứa file upload vào ngay chính bên trong service mà nên dùng Cloud. 
+- Tăng hiệu suất đáng kể do giảm thiểu được request về phía server
+- Lưu file upload vào ngay bên trong service sẽ tốn dung lượng để lưu trữ file vật lý.
+- Tăng chi phí cho các thiết bị lưu trữ
+- Có thể gặp một số vấn đề như server quá tải, tràn bộ nhớ hay mất toàn bộ tài nguyên do hỏng hóc server gây ra nếu không được backup thường xuyên.
+- Cloud có thể tránh các nguy cơ về bảo mật và mất tài nguyên, dễ mở rộng.
+Vì sao không chứa binary ảnh vào DB?
+- Tốn nhiều dung lượng lưu trữ hơn, ảnh hưởng đến back-up và truy suất dữ liệu
+- Binary data lớn có thể làm ảnh hưởng đến hiệu năng của DB
+- Làm tăng tính bảo mật dữ liệu
